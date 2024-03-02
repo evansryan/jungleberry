@@ -52,5 +52,12 @@ a:link, a:visited {
 
 a:hover {
     text-shadow: 1px 1px 1px #FFFFFF;
+    text-transform: uppercase;
     color: #0feb07;
+}
+
+footer {
+    border: 1px solid teal;
+    background-color: #1c261e;
+    text-align: center;
 }
