@@ -13,33 +13,18 @@ header {
     align-items: center;
 }
 
-.title, .dot {
+.title {
     margin-left: 25px;
     margin-top: 25px;
-    display: flex;
     font-size: 40px;
-}
-
-.dot {
-    margin-right: 10px;
-    color: #0feb07;
+    border: 1px solid pink;
 }
 
 nav {
-    align-items: center;
-    margin: auto;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    max-width: 600px;
-}
-
-.nav-link {
     display: inline;
-    margin-right: 5px;
-    margin-left: 5px;
-    font-size: 20px;
-    text-shadow: 1px 1px 1px #0feb07;
+    margin: 0 auto;
+    width: 100%;
+    border: 1px solid white;
 }
 
 .about {
@@ -53,18 +38,9 @@ nav {
     text-align: center;
 }
 
-a:link, a:visited {
-    text-shadow: 1px 1px 1px #0feb07;
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-a:hover {
-    text-shadow: 1px 1px 1px #FFFFFF;
-    text-transform: uppercase;
-    color: #0feb07;
-}
-
 footer {
-    text-align: left;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    border-top: 1px solid #0feb07;
 }
